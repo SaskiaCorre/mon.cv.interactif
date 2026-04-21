@@ -77,14 +77,15 @@ ul {
     color: var(--primary-green);
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .sidebar-title {
     color: var(--primary-green);
     border-bottom: 1px solid var(--primary-green);
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 /* Contenu Principal (Droite) */
@@ -147,6 +148,7 @@ ul {
 
 mark {
     background-color: var(--primary-green);
+    color: white;
 }
 
 a {
@@ -216,5 +218,4 @@ button {
   margin-bottom: 20px;
   border-radius: 10px;
   cursor: pointer;
-
 }

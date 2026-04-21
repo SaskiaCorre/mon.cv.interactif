@@ -112,11 +112,12 @@ h3 {
 }
 
 /* Bouton final */
-.btn-download {
+.btn-download,
+.dropbtn {
     display: inline-block;
     background: var(--primary-green);
     color: white;
-    padding: 12px 25px;
+    padding: 8px 15px;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
@@ -139,4 +140,40 @@ h3 {
 .nav-link:hover .fa-circle-arrow-left {
     transform: translateX(-5px); /* Petit mouvement vers la gauche */
     transition: 0.3s;
+}
+
+/* Conteneur du menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Liste cachée par défaut */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    margin-top: 4px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    list-style: none;
+    padding: 0;
+}
+
+/* Items du menu */
+.dropdown-content li a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Affichage au survol du bouton */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Optionnel : effet au survol des liens */
+.dropdown-content li a:hover {
+    background-color: #f1f1f1;
 }

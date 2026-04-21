@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saskia Corre | Installation d'un serveur GLPI</title>
-    <link rel="stylesheet" href=".\style.css">
+    <link rel="stylesheet" href="../css/pages.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -15,11 +15,15 @@
                 <i class="fa-solid fa-circle-arrow-left"></i>
                 Retour au CV
             </a>
-            <div class="nav-projects">
-                <a href="..\pages\serveur-dhcp.html" class="nav-link">Serveur DHCP</a>
-                <a class="nav-link active">Serveur GLPI</a>
-                <a href="..\pages\reseau-2-lan.html" class="nav-link">Réseau 2 LAN</a>
-                <a href="..\pages\2-lan-dhcp.html" class="nav-link">2 LAN & DHCP</a>                
+            <div class="dropdown">
+                <button class="dropbtn">Tous les projets</button>
+                <ul class="dropdown-content">
+                    <li><a href="..\pages\boutique-symfony.html">E-commerce</a></li>
+                    <li><a href="..\pages\caisse-python-poo.html">Caisse Python</a></li>
+                    <li><a href="..\pages\serveur-dhcp.html">Serveur DHCP</a></li>
+                    <li><a href="..\pages\reseau-2-lan.html">Réseau 2 LAN</a></li>
+                    <li><a href="..\pages\2-lan-dhcp.html">2 LAN & DHCP</a></li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -28,12 +32,12 @@
         <article class="project-card">
             <header class="project-header">
                 <h1>Installation d'un serveur GLPI</h1>
-                <div class="badge">Gestion de Parc & ITSM</div>
+                <div class="badge">Gestion de parc informatique</div>
             </header>
 
             <section class="project-section">
                 <h3><i class='far fa-clipboard'></i> Scénario</h3>
-                <p>Dans le cadre de l’installation du parc informatique de l’agence « Rue25 », vous décidez d’utiliser GLPI
+                <p>Dans le cadre de l’installation du parc informatique de l’agence « Rue25 », vous devez utiliser GLPI
                     comme outil de gestion du parc et des demandes au service de support technique.</p>
                 <p>GLPI est une solution logicielle open source qui permet de traiter les demandes de support des
                     utilisateurs et de gérer son parc informatique.<br/>
@@ -62,7 +66,7 @@
             </section>
 
             <footer class="project-footer">
-                <h3><i class='fa-solid fa-lightbulb' style='font-size:24px'></i> Résultat</h3>
+                <h3><i class='fa-solid fa-lightbulb'></i> Résultat</h3>
                 <a href="https://drive.google.com/file/d/1RuJ1k2922l-ULHgtxMdDESflEJzdGcCE/view?usp=drive_link" class="btn-download" target="_blank">
                     Voir la documentation
                 </a>

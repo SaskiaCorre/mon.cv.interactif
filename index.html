@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Développeuse Fullstack</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
@@ -23,9 +23,9 @@
 
             <section class="profil-section">
                 <h2 class="sidebar-title">Profil</h2>
-                <p>Développeuse d'Applications certifiée (<strong>Certificat de Compétences Professionnelles</strong>), je
-                    conçois des applications web structurées et évolutives.<br/>
-                    Après plus de 20 ans d’<strong>expérience dans le commerce et la relation client</strong>, j’ai
+                <p>Développeuse d'Applications certifiée (<strong>Certificat de Compétences Professionnelles</strong>), j'aspire
+                    à concevoir des applications web structurées et évolutives.<br/>
+                    Après plus de 15 ans d’<strong>expérience dans le commerce et la relation client</strong>, j’ai
                     une double compétence technique et métier pour concevoir des solutions web utiles et performantes.
                 </p>
             </section>
@@ -63,11 +63,18 @@
                             <li><strong>XAMPP</strong></li>
                         </ul>
 
-                    <mark>Systèmes & Réseaux</mark>
+                    <mark>Environnements</mark>
                         <ul>
                             <li><strong>Linux (Debian, Ubuntu)</strong></li>
                             <li><strong>Windows</strong></li>
                             <li><strong>VirtualBox</strong></li>
+                        </ul>
+
+                    <mark>Systèmes & Réseaux</mark>
+                        <ul>
+                            <li><strong>DHCP</strong></li>
+                            <li><strong>Architecture LAN</strong></li>
+                            <li><strong>Simulation réseau avec Cisco Packet Tracer</strong></li>
                         </ul>
                        
                     <mark>Cybersécurité (notions)</mark>
@@ -98,7 +105,12 @@
 
             <section class="interests">
                 <h2 class="sidebar-title">Centres d'intérêt</h2>
-                    <p>Nature, écologie, fitness, roller, vtt, randonnée, cinéma, littérature, technologies</p>
+                    <ul>
+                        <li>Nature, écologie, médecines naturelles</li> 
+                        <li>Sports : fitness, roller, vtt, randonnée</li>
+                        <li>Cinéma, littérature, théatre</li>
+                        <li>Nouvelles technologies</li>
+                    </ul>
             </section>
         </aside>
 
@@ -230,7 +242,7 @@
                 <div>
                     <div class="experience-item">
                         <div>
-                            <button>
+                            <button class="btn-download">
                                 <a href="pages\boutique-symfony.html" class="nav-link">
                                     E-commerce Symfony
                                 </a>
@@ -243,7 +255,43 @@
                                 </a>
                             </button>
                         </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- PROJETS RESEAU--> 
+            <section class="content-block">
+                <h2 class="section-title highlight">Projets d'infrastracture et de réseau</h2>
+                <div>
+                    <div class="experience-item">
+                        <div>
+                            <button>
+                                <a href="pages\reseau-2-lan.html" class="nav-link">
+                                    Architecture multi-LAN
+                                </a>
+                            </button>
+                        </div>
+                        <div>
+                            <button>
+                                <a href="pages\2-lan-dhcp.html" class="nav-link">
+                                    DHCP sur architecture multi-LAN
+                                </a>
+                            </button>
+                        </div>
+                        <div>
+                            <button>
+                                <a href="pages\serveur-dhcp.html" class="nav-link">
+                                    Serveur DHCP
+                                </a>
+                            </button>
+                        </div>
+                        <div>
+                            <button>
+                                <a href="pages\serveur-glpi.html" class="nav-link">
+                                    Serveur GLPI
+                                </a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>

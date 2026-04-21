@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saskia Corre | Gestion d'un ticket de caisse</title>
-    <link rel="stylesheet" href=".\style.css">
+    <link rel="stylesheet" href="../css/pages.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -15,26 +15,33 @@
                 <i class="fa-solid fa-circle-arrow-left"></i>
                 Retour au CV
             </a>
-            <!--<div class="nav-projects">
-                <a class="nav-link active">Serveur DHCP</a>
-                <a href="..\pages\serveur-glpi.html" class="nav-link">Serveur GLPI</a>
-                <a href="..\pages\reseau-2-lan.html" class="nav-link">Réseau 2 LAN</a>
-                <a href="..\pages\2-lan-dhcp.html" class="nav-link">2 LAN & DHCP</a>                
-            </div> -->
+            <div class="dropdown">
+                <button class="dropbtn">Tous les projets</button>
+                <ul class="dropdown-content">
+                    <li><a href="..\pages\boutique-symfony.html">E-commerce</a></li>
+                    <li><a href="..\pages\serveur-dhcp.html">Serveur DHCP</a></li>
+                    <li><a href="..\pages\serveur-glpi.html">Serveur GLPI</a></li>
+                    <li><a href="..\pages\reseau-2-lan.html">Réseau 2 LAN</a></li>
+                    <li><a href="..\pages\2-lan-dhcp.html">2 LAN & DHCP</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <main class="main-pages">
         <article class="project-card">
             <header class="project-header">
-                <h1>Application Python POO - Ticket de caisse</h1>
-                <div class="badge">Gestion du ticket</div>
+                <h1>Application - Ticket de caisse</h1>
+                <div>
+                    <span class="badge">Python</span>
+                    <span class="badge">POO</span>
+                </div>
             </header>
 
             <section class="project-section">
-                <h2><i class='far fa-clipboard'></i> Application de gestion de caisse</h2>
-                    <h3>Projet de démonstration de <em>Programmation Orientée Objet</em> en Python avec persistance SQLite.</h3>
-                        <h4>Fonctionnalités :</h4>
+                <h3><i class='far fa-clipboard'></i> Application de gestion de caisse</h3>
+                    <h5>Projet de démonstration de <em>Programmation Orientée Objet</em> en Python avec persistance SQLite.</h5>
+                        <h3><i class='fa-solid fa-gears'></i>Fonctionnalités :</h3>
                             <ul>
                                 <li>Architecture modulaire (Entités, Composants, Data, Affichage)</li>
                                 <li>Gestion des tickets avec calcul automatique des totaux</li>
@@ -42,18 +49,18 @@
                                 <li>Affichage d'un ticket formaté en console</li>
                             </ul>
                         
-                        <h4>Structure du Projet :</h4>
+                        <h3><i class="fa-solid fa-sitemap"></i>Structure du Projet :</h3>
                             <ul>
                                 <li>main.py : point d'entrée principal de l'application</li>
                                 <li>/entites : modèles de données (Produit, Vendeur, Categorie)</li>
                                 <li>/composants : logique métier (Ticket, LigneTicket)</li>
                                 <li>/data : gestionnaire de base de données</li>
                                 <li>/affichage : formatage visuel du ticket</li>
-                            </ul>>
+                            </ul>
             </section>
 
             <section class="project-section">
-                <h3><i class="fa-solid fa-network-wired"></i> Retour console :</h3>
+                <h3><i class="fa-solid fa-laptop"></i> Retour console :</h3>
                     
             <img class="tab-droits" src="..\img\ticket_caisse_python.png" >
             </section>

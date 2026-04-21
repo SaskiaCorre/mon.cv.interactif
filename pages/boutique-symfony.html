@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saskia Corre | Conception d'une e-commerce en Symfony</title>
-    <link rel="stylesheet" href=".\style.css">
+    <link rel="stylesheet" href="../css/pages.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -15,12 +15,16 @@
                 <i class="fa-solid fa-circle-arrow-left"></i>
                 Retour au CV
             </a>
-            <!--<div class="nav-projects">
-                <a class="nav-link active">Serveur DHCP</a>
-                <a href="..\pages\serveur-glpi.html" class="nav-link">Serveur GLPI</a>
-                <a href="..\pages\reseau-2-lan.html" class="nav-link">Réseau 2 LAN</a>
-                <a href="..\pages\2-lan-dhcp.html" class="nav-link">2 LAN & DHCP</a>                
-            </div> -->
+            <div class="dropdown">
+                <button class="dropbtn">Tous les projets</button>
+                <ul class="dropdown-content">
+                    <li><a href="..\pages\caisse-python-poo.html">Caisse Python</a></li>
+                    <li><a href="..\pages\serveur-dhcp.html">Serveur DHCP</a></li>
+                    <li><a href="..\pages\serveur-glpi.html">Serveur GLPI</a></li>
+                    <li><a href="..\pages\reseau-2-lan.html">Réseau 2 LAN</a></li>
+                    <li><a href="..\pages\2-lan-dhcp.html">2 LAN & DHCP</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -28,24 +32,30 @@
         <article class="project-card">
             <header class="project-header">
                 <h1>Application Symfony - E-commerce</h1>
-                <div class="badge">E-commerce</div>
+                <div>
+                    <span class="badge">Symfony</span>
+                    <span class="badge">JavaScript</span>
+                    <span class="badge">MySQL</span>
+                    <span class="badge">Bootstrap</span>
+                </div>
             </header>
 
             <section class="project-section">
-                <h2><i class='far fa-clipboard'></i>Application web e-commerce complète développée avec le framework Symfony.</h2>
-                    <h3>Projet de démonstration mettant en œuvre la conception d’une application web structurée, avec intégration front-end, logique métier back-end et gestion de base de données.</h3>
-                        <h4>Fonctionnalités :</h4>
+                <h3><i class='far fa-clipboard'></i>Application web e-commerce complète développée avec le framework Symfony.</h3>
+                    <h5>Projet de démonstration mettant en œuvre la conception d’une application web structurée, avec intégration 
+                        front-end, logique métier back-end et gestion de base de données.</h5>
+                        <h3><i class='fa-solid fa-gears'></i>Fonctionnalités :</h3>
                             <ul>
                                 <li>Catalogue de produits avec affichage dynamique</li>
                                 <li>Fiche produit détaillée</li>
-                                <li>Ajout / suppression de produits dans le panieri>Sauvegarde des ventes dans SQLite</li>
+                                <li>Ajout / suppression de produits dans le panier > Sauvegarde des ventes dans SQLite</li>
                                 <li>Calcul automatique du total du panier</li>
                                 <li>Gestion du tunnel de commande</li>
                                 <li>Interface responsive avec Bootstrap</li>
                                 <li>Interaction dynamique avec JavaScript</li>
                             </ul>
 
-                        <h4>Architecture du Projet :</h4>
+                        <h3><i class="fa-solid fa-sitemap"></i>Architecture du Projet :</h3>
                             <ul>
                                 <li>Symfony : gestion de l’application et de la logique métier</li>
                                 <li>Controllers : gestion des routes et du flux applicatif</li>
@@ -56,7 +66,7 @@
                                 <li>Base de données : persistance des données utilisateurs et commandes</li>
                             </ul>
                         
-                        <h4>Structure du Projet :</h4>
+                        <h3><i class="fa-solid fa-network-wired"></i>Structure du Projet :</h3>
                             <ul>
                                 <li>/src/Controller : gestion des routes et logique applicative</li>
                                 <li>/src/Entity : modèles de données (produits, commandes…)</li>
@@ -66,7 +76,7 @@
                                 <li>/config : configuration de l’application</li>
                             </ul>
 
-                        <h4>Technologies utilisées :</h4>
+                        <h3><i class='fa-solid fa-lightbulb'></i>Technologies utilisées :</h3>
                             <ul>
                                 <li>PHP</li>
                                 <li>HTML5</li>
@@ -76,7 +86,7 @@
                                 <li>MySQL / MariaDB</li>
                             </ul>
 
-                        <h4>Compétences mises en œuvre :</h4>
+                        <h3><i class='fa-solid fa-rocket'></i>Compétences mises en œuvre :</h3>
                             <ul>
                                 <li>Conception d’une application web avec Symfony</li>
                                 <li>Structuration d’un projet MVC</li>
@@ -88,12 +98,12 @@
             </section>
 
             <section class="project-section">
-                <h3><i class="fa-solid fa-network-wired"></i>Template utilisateur :</h3>
+                <h3><i class="fa-solid fa-laptop"></i>Template utilisateur :</h3>
                     
             <img class="tab-droits" src="..\img\e-boutique_accueil.png" >
             </section>
             <section class="project-section">
-                <h3><i class="fa-solid fa-network-wired"></i>Template administrateur :</h3>              
+                <h3><i class="fa-solid fa-desktop"></i>Template administrateur :</h3>              
             <img class="tab-droits" src="..\img\e-boutique_admin.png" >
             </section>
 
@@ -105,6 +115,11 @@
                 <div>
                 <a href="https://github.com/SaskiaCorre/eboutique.symfony" class="btn-download" target="_blank">
                    Voir le repository GitHub 
+                </a></i>
+                </div>
+                <div>
+                <a href="https://www.figma.com/proto/nZtNDB6IlRGOHR5dmcG8kG/MaBoutique?node-id=1-2445&p=f&t=ySj7Yf7mfYcCkcn1-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2638" class="btn-download" target="_blank">
+                   Voir la maquette interactive pour téléphone
                 </a></i>
                 </div>
             </footer>
