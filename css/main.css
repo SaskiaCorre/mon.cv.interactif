@@ -207,7 +207,7 @@ a:hover {
     font-size: 1.2rem;
 }
 
-button {
+/* button {
   border: 3px solid var(--primary-green);
   color: white;
   padding: 15px 32px;
@@ -218,4 +218,26 @@ button {
   margin-bottom: 20px;
   border-radius: 10px;
   cursor: pointer;
+} */
+
+.grid-projet {
+  display: grid;
+    /* Crée 3 colonnes de largeur égale */
+    grid-template-columns: repeat(3, 1fr);
+    /* Crée 2 lignes (la hauteur s'adapte au contenu) */
+    grid-template-rows: repeat(2, auto);
+    /* Espace entre les boutons */
+    gap: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.btn-projet {
+    border: 3px solid var(--primary-green);
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    text-align: center;  
+    border-radius: 10px;
+    cursor: pointer;   
 }

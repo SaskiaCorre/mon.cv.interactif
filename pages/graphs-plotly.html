@@ -18,12 +18,12 @@
             <div class="dropdown">
                 <button class="dropbtn">Tous les projets</button>
                 <ul class="dropdown-content">
+                    <li><a href="..\pages\caisse-python-poo.html">Caisse Python</a></li>
                     <li><a href="..\pages\boutique-symfony.html">E-commerce</a></li>
                     <li><a href="..\pages\serveur-dhcp.html">Serveur DHCP</a></li>
                     <li><a href="..\pages\serveur-glpi.html">Serveur GLPI</a></li>
                     <li><a href="..\pages\reseau-2-lan.html">Réseau 2 LAN</a></li>
                     <li><a href="..\pages\2-lan-dhcp.html">2 LAN & DHCP</a></li>
-                    <li><a href="..\pages\graphs-plotly.html">Graphs Python</a></li>
                 </ul>
             </div>
         </div>
@@ -32,42 +32,48 @@
     <main class="main-pages">
         <article class="project-card">
             <header class="project-header">
-                <h1>Application - Ticket de caisse</h1>
+                <h1>Analyse de données - Graphiques Plotly</h1>
                 <div>
                     <span class="badge">Python</span>
-                    <span class="badge">POO</span>
+                    <span class="badge">Pandas</span>
+                    <span class="badge">Plotly</span>
                 </div>
             </header>
 
             <section class="project-section">
-                <h3><i class='far fa-clipboard'></i> Application de gestion de caisse</h3>
-                    <h5>Projet de démonstration de <em>Programmation Orientée Objet</em> en Python avec persistance SQLite.</h5>
-                        <h3><i class='fa-solid fa-gears'></i>Fonctionnalités :</h3>
+                <h3><i class='far fa-clipboard'></i> Analyse de données</h3>
+                    <h5>Projet d' <em>analyse de données commerciales</em> fictives inspirées du secteur dermo-cosmétique.</h5>
+                    <p>Projet réalisé en Python dans le but de <strong>manipuler, analyser et visualiser des données</strong> liées aux ventes, 
+                        à la satisfaction client et aux performances commerciales.<br />
+                        Projet documenté <strong>en anglais</strong> afin répondre aux standards de collaboration internationaux du secteur Data.</p>
+                        <h3><i class='fa-solid fa-gears'></i>Compétences mises en œuvre:</h3>
                             <ul>
-                                <li>Architecture modulaire (Entités, Composants, Data, Affichage)</li>
-                                <li>Gestion des tickets avec calcul automatique des totaux</li>
-                                <li>Sauvegarde des ventes dans SQLite</li>
-                                <li>Affichage d'un ticket formaté en console</li>
+                                <li>Analyse de données avec Pandas</li>
+                                <li>Data visualisation avec Plotly</li>
+                                <li>Manipulation de fichiers CSV</li>
+                                <li>Nettoyage de données</li>
+                                <li>Structuration et exploitation de données</li>
+                                <li>Logique métier</li>
+                                <li>Python orienté analyse</li>
                             </ul>
                         
-                        <h3><i class="fa-solid fa-sitemap"></i>Structure du Projet :</h3>
+                        <h3><i class="fa-solid fa-sitemap"></i>Structure du Projet:</h3>
                             <ul>
                                 <li>main.py : point d'entrée principal de l'application</li>
-                                <li>/entites : modèles de données (Produit, Vendeur, Categorie)</li>
-                                <li>/composants : logique métier (Ticket, LigneTicket)</li>
-                                <li>/data : gestionnaire de base de données</li>
-                                <li>/affichage : formatage visuel du ticket</li>
+                                <li>/data : modèles de données (CSV)</li>
+                                <li>/graphs : fichiers .html pour la création des graphiques </li>
+                                <li>/screenshots : captures d'écran des graphiques</li>
                             </ul>
             </section>
 
             <section class="project-section">
                 <h3><i class="fa-solid fa-laptop"></i> Retour console :</h3>
                     
-            <img class="tab-droits" src="..\img\ticket_caisse_python.png" >
+            <img class="tab-droits" src="..\img\graphs-donnees.png" >
             </section>
 
             <footer class="project-footer">
-                <a href="https://github.com/SaskiaCorre/ticket.caisse.python" class="btn-download" target="_blank">
+                <a href="https://github.com/SaskiaCorre/data.analysis.graphs" class="btn-download" target="_blank">
                    Voir le repository GitHub 
                 </a></i>
             </footer>
